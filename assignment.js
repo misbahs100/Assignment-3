@@ -5,7 +5,7 @@ function kilometerToMeter(kilometer){
         var message = "Distance cannot be negative.";
         return message;
     }
-    var meter = kilometer * 1000;
+    var meter = kilometer * 1000;  // 1 kilometer = 1000 meter
     return meter; 
 }
 
